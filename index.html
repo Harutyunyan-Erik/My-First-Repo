@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Photographer</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header class="main_header_container" id="header">
+        <section class="section1">
+            <div class="img_container">
+                <h1 id="jane_name"></h1>
+                <h2>PHOTOGRAPHER</h2>
+            </div>
+        </section>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="#header">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="main_section">
+        <section class="section2" id="portfolio">
+            <div class="images_container">
+                <img src="./Images/ocean.jpg" alt="ocean">
+                <img src="./Images/ocean2.jpg" alt="ocean2">
+                <img src="./Images/falls2.jpg" alt="falls2">
+                <img src="./Images/mountainskies.jpg" alt="mountainskies">
+                <img src="./Images/mountains2.jpg" alt="mountains2">
+            </div>
+        </section>
     
-    <script src="./script.js"></script>
+    
+        <section class="section3" id="contact">
+            <div>
+                <h3>Contact</h3>
+                <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Message">
+                <button>Send</button>
+                <p>Powered by Erik :)</p>
+            </div>
+        </section>
+    </section>
+
+    <script src="./script.js" type="module"></script>
 </body>
 </html>
